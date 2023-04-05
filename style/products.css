@@ -1,0 +1,31 @@
+:root{
+    --color-main: #FFC300;
+    --color-second: #18223B;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-second);
+}
+
+nav{
+    background-color: var(--color-second);
+}
+.navbar-brand{
+    color: var(--color-main);
+}
+
+main{
+    padding: 0% 20%;
+}
+
+.container{
+    height: 80%;
+}
+
+
+footer{
+    background-color: var(--color-main);
+    
+}
