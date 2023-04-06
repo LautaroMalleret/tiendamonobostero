@@ -42,6 +42,48 @@ main{
     
 }
 
+#whatsapp a {
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+/**
+a{
+    text-decoration: none;
+  }
+  #whatsapp {
+      position: fixed;
+      bottom: 5%;
+      right:5%;
+  }
+  svg {
+      
+      display: inline-block;
+    vertical-align: middle;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+  }
+  circle {
+    fill: #25d366;
+  }
+  path {
+      fill:  #fff;
+  }
+  #whatsapp a {padding: 20px 0;}
+  #whatsapp a::before {
+      content: 'Contacto';
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px 10px;
+      margin-right: 10px;
+      color: rgba(0, 0, 0, .8);
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+      transition: .3s ease;
+      opacity: 0;
+  }
+  #whatsapp:hover a::before {opacity: 1;}**/
 footer{
     background-color: var(--color-main);
     
