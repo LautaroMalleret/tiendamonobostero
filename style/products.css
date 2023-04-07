@@ -15,13 +15,27 @@ nav{
 .navbar-brand{
     color: var(--color-main);
 }
-
+#whatsapp a {
+    text-decoration: none;
+    color: var(--color-main);
+}
 main{
     padding: 0% 20%;
 }
 
-.container{
-    height: 80%;
+.descripcion{
+    background-color: #ffc40063;
+    margin: 5% 0%;
+    padding: 5%;
+    color: white;
+}
+
+.descripcion h3{
+    text-align: center;
+}
+
+.descripcion p{
+    font-size: small;
 }
 
 
@@ -29,3 +43,5 @@ footer{
     background-color: var(--color-main);
     
 }
+
+

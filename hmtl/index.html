@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/75bb38ec2f.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="../resources/icon.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
@@ -25,30 +29,16 @@
             <a href="https://api.whatsapp.com/send?phone=5401125400531&text=Hola,%20quiero%20realizar%20un%20pedido." target="_blank">
               Realizar Pedido
               <i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #fcbd09;"></i>
-              
             </a>         
           </div>
-          <!--<div>
-            <a
-              class="btn btn-floating m-1"
-              style="background-color: var(--color-main);
-              color: var(--color-second);"
-              href="#!"
-              
-              >
-              <i class="fa-brands fa-whatsapp">Contactar</i>
-              
-            <i class="fas fa-shopping-cart"> Ver Compras</i>
-           
-            </a>
-          </div>-->
+
         </div>
     </nav>
       
 
   <img src="../resources/banner.jpg" class="container-fluid img-fluid m-0 p-0" alt="banner logo el mono bostero">
   
-  <h1>Bienvenidos a la tienda de primera!</h1>
+  <h1 class="animate__animated animate__backInDown">Bienvenidos a la tienda de primera!</h1>
 
   <main>
 
@@ -110,9 +100,11 @@
 
   <footer>
     <footer class="text-center text-white">
+      
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
+          <p style="color: var(--color-second);">Nuestras redes sociales</p>
           <section class="mb-4">
             <!-- Facebook -->
             <a
